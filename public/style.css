@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&family=Rubik&display=swap');
+
+*{
+    font-family: 'K2D', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    background: #00A1FE;
+}
+
+#nav-img{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar-right{
+    margin-right: 5%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+}
+
+.navbar-nav  li a:hover {
+    color: #dbdbdb !important;
+}
+
+.navbar-brand{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.navbar-brand:hover {
+    color: #dbdbdb !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	background-color: #00A1FE;
+}
+
+.footer p {
+	font-size: 16px;
+    color: #fff;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 316px;
+    left: 0px;
+    top: 80px;
+
+    background: #C4C4C4;
+
+    display: flex;
+}
+
+#banner-home{
+    justify-content: center;
+}
+
+.banner-text {
+    color:#00A1FE;
+    font-size: 60px;
+    font-family: 'K2D', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+.banner-img {
+    width: 300px;
+    height: 300px;
+}
+
+.partial-banner {
+    margin-left: 5%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.body{
+    margin-top: 350px;
+    margin-right: 3%;
+    margin-left: 4.5%;
+}
+
+.section{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.section1 {grid-area: sec1;}
+.section2 {grid-area: sec2;}
+
+.dualsection{
+    display: grid;
+    grid-template-areas: 'sec1 sec2';
+}
+
+#intro {grid-area: intro;}
+#whatVEX {grid-area: whatVEX;}
+#competition {grid-area: comp;}
+#curteams {grid-area: curteams;}
+.sidesec {grid-area: spondis;}
+
+#body-home {
+    display: grid;
+    grid-template-areas: 
+    'spondis intro'
+    'spondis whatVEX'
+    'spondis comp'
+    'spondis curteams';
+}
+
+#facebook{grid-area: facebook;}
+#instagram{grid-area: insta;}
+#twitter{grid-area: twitter;}
+
+#media{
+    display: grid;
+    grid-template-areas: 
+    'facebook insta twitter';
+    width: 100px;
+    margin: auto;
+}
+
+.mediaimg{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+#resources {
+    z-index: 5000;
+}
